@@ -9,3 +9,14 @@ module full_adder(sum,cout,a,b,c);
   and g4(y3,y1,c);
   or g5(cout,y3,y2);
 endmodule
+
+
+//using Data flow model 
+module full_adder(sum,cout,a,b,c);
+  output sum,cout;
+  input a,b,c;
+  assign sum = a^b^c;
+  assign cout = ((a&b)|(b&c)|(c&a));
+endmodule
+
+
