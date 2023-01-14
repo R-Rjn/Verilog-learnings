@@ -1,6 +1,6 @@
 # Verilog-learnings
-As an Example<br>
-(Full_adder)↴
+<h3>As an Example</h3>
+<h5>(Full_adder)↴</h5>
  <img src="https://cdn.discordapp.com/attachments/830664223259885621/1063765204355260427/image.png" />
 =======
 <h2>Platforms</h2>
