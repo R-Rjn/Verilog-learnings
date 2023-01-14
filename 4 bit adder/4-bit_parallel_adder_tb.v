@@ -6,6 +6,7 @@ module parallel_adder_tb();
     begin
       $dumpfile("dump.vcd");
       $dumpvars(1);
+      //adding 7 & 5 bitwise
       a3=0;a2=1;a1=1;a0=1;
       b3=0;b2=1;b1=0;b0=1;
       c0=0;
