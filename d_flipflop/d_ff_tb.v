@@ -1,5 +1,5 @@
 `include "d_ff.v"
-module srff_tb();
+module dff_tb();
 wire Q,Qbar;
 reg D,clk;
 d_ff d1(Q,Qbar,clk,D);
