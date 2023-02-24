@@ -1,0 +1,26 @@
+$date
+	Fri Feb 24 16:53:17 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alu_tb $end
+$var wire 4 ! alu_out [3:0] $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$var reg 3 $ Op [2:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#65
+$dumpvars
+b110 $
+b1 #
+b11 "
+b1110 !
+$end
